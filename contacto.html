@@ -3,21 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>FORMULARIO</title>
   </head>
   <body>
     <header>
-      <h1>Formulario de contacto</h1>
+      <div>
+        <h1>Formulario de contacto</h1>
+      </div>
     </header>
     <main>
       <div>
         <h2>Formulario para que puedas contactarnos</h2>
       </div>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, animi.
-        Fugit dicta eius quae officia error consequatur. Facere quidem neque ea,
-        quos eius quae, sequi accusamus impedit possimus odit fugit.
-      </p>
+      <div>
+        <p>
+          A continuación dejanos tus datos y tus consultas, en breve nos
+          podremos en contacto contigo para poder ayudarte.
+        </p>
+      </div>
       <form>
         <div>
           <input type="text" name="nombre" placeholder="Nombre" />
@@ -33,6 +37,7 @@
         <br />
         <div>
           <input
+            class="consulta"
             type="text"
             name="experiencia de contacto"
             placeholder="Consulta"
@@ -40,7 +45,9 @@
         </div>
         <br />
         <br />
-        <button>enviar</button>
+        <div>
+          <button>enviar</button>
+        </div>
       </form>
     </main>
   </body>
